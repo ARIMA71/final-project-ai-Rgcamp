@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f2f1;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0f2f1;
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #64b5f6, #1e88e5);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #1e88e5, #1565c0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
